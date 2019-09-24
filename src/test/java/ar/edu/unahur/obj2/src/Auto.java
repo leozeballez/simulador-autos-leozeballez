@@ -1,3 +1,5 @@
+package ar.edu.unahur.obj2.src;
+
 public class Auto implements Conduccion, Avance {
 
     private int cantidadDeCombustible;
@@ -12,6 +14,14 @@ public class Auto implements Conduccion, Avance {
         this.kilometraje = kilometraje;
         this.setTipoConduccion(tipoConduccion);
         this.registrador = registrador;
+    }
+
+    public int getCantidadDeCombustible() {
+        return cantidadDeCombustible;
+    }
+
+    public int getKilometraje() {
+        return kilometraje;
     }
 
     public void setTipoConduccion(TipoConduccion tipoConduccion) {

@@ -1,3 +1,5 @@
+package ar.edu.unahur.obj2.src;
+
 public class TipoConduccion {
 
     private int consumo;
